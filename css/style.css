@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+
+}
+
+.navbar {
+    padding:0rem;
+    margin-bottom:2rem;
+  }
+
+
+.search-input {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #999;
+    transition: all .4s;
+}
+  
+.search-input:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #dc3545;
+    transform: translateY(4px);
+}
+  
+.search-button {
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s;
+}
+  
+.search-button:hover {
+    background-color: #eee;
+    transform: translateY(-1px);
+}
+
+.top-nav {
+    box-shadow: 7px 3px 7px #eee;
+}
+
+
+@media( min-width: 768px){
+    
+    .top-navbar{
+        margin-left: auto;
+    }
+}
