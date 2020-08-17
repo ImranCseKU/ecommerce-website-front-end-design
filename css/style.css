@@ -4,11 +4,20 @@ body {
 
 }
 
+/* start navber */
 .navbar {
     padding:0rem;
     margin-bottom:2rem;
-  }
+}
 
+#nav ul li a:hover {
+    font-weight: bold;
+    color: #b45858;
+}
+
+.top-nav {
+    box-shadow: 7px 3px 7px #eee;
+}
 
 .search-input {
     background: transparent;
@@ -35,10 +44,8 @@ body {
     background-color: #eee;
     transform: translateY(-1px);
 }
+/* navber end */
 
-.top-nav {
-    box-shadow: 7px 3px 7px #eee;
-}
 
 
 @media( min-width: 768px){
