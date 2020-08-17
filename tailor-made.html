@@ -24,6 +24,7 @@
     </head>
     <body>
 
+        <!-- navber start -->
         <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top top-nav">
             <button type="button" class="navbar-toggler bg-light ml-auto mb-2" data-toggle="collapse" data-target="#nav">
                 <spam class="navbar-toggler-icon"></spam>
@@ -61,7 +62,7 @@
                     </form>
                 </ul>
             
-                <ul class="navbar-nav w-100 bg-white py-3 justify-content-around">
+                <ul class="navbar-nav w-100 bg-white p-3 justify-content-around">
                     <li class="nav-item active"> <a class="nav-link text-uppercase " href="#">webshop</a></li>
                     <li class="nav-item active"> <a class="nav-link text-uppercase " href="#">tailor made</a></li>
                     <li class="nav-item active"> <a class="nav-link text-uppercase " href="#">inspiration</a></li>
@@ -84,10 +85,396 @@
             </div>
                 
         </nav>
+        <!-- navber end -->
+
+        <section class="container mb-5">
+            <h3 class="text-uppercase" style="color: #b45858;"> tailor-made offer</h3>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8 col-sm-10">
+                    <img src="http://placehold.it/1080x500" class="img-fluid" alt="Responsive image">
+                    <p class="text-center mt-1">Enter the dimension of your desired door</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-8 col-sm-10">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-sm-6">
+                                <label for="max_height">Height in mm*</label>
+                                <input type="text" class="form-control" id="max_height" placeholder="Width">
+                          </div>
+                          <div class="form-group col-sm-6">
+                                <label for="max_width">Width in mm*</label>
+                                <input type="text" class="form-control" id="max_width" placeholder="Height">
+                          </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="text-center text-danger border-bottom border-muted">Choose The Design Below</p>
+                </div>
+            </div>
+            <!-- card strat -->
+            <div class="row mt-md-3 mt-lg-4">
+                <div class="col-lg-3 col-md-6 col-sm-10 mx-sm-auto mx-2 mb-2">
+                    <div class="card">
+                        <img src="http://placehold.it/240x240" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-dark">Single Door</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 mx-sm-auto mx-2 mb-2">
+                    <div class="card">
+                        <img src="http://placehold.it/240x240" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-dark">Double Door</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 mx-sm-auto mx-2 mb-2">
+                    <div class="card">
+                        <img src="http://placehold.it/240x240" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-dark">Fixed panel left</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 mx-sm-auto mx-2 mb-2">
+                    <div class="card">
+                        <img src="http://placehold.it/240x240" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-dark">Fixed Panel right</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- card end -->
+
+            <div class="row justify-content-center my-5">
+                <div class="col-md-6 col-sm-10">
+                    <form>
+                        <div class="form-group">
+                            <label for="Select_Door_Design">Select Door Design*</label>
+                            <select class="form-control" id="Select_Door_Design">
+                                <option>Choose a design... </option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container mb-5">
+            <div class="row mb-3">
+                <div class="col text-center">
+                    <p class="text-center text-danger border-bottom border-muted">Choose Glass Partition</p>
+                </div>
+            </div>
+
+            
+            <form>
+                <div class="form-row">
+                    
+                    <div class="form-group col-md-4">
+                        <label for="measurement">Number of uprights*</label>
+                        <select class="form-control" id="measurement">
+                            <option>Choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
 
 
+                    <div class="form-group col-md-4">
+                        <label for="number_of_beams">Number of beams*</label>
+                        <select class="form-control" id="number_of_beams">
+                            <option>Choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
 
-        
+
+                    <div class="form-group col-md-4">
+                        <label for="is_symmetric">Symmetric or Asymmetric*</label>
+                        <select class="form-control" id="is_symmetric">
+                            <option>choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                </div>
+            </form>
+
+        </section>
+
+
+        <section class="container mb-5">
+            <div class="row mb-3">
+                <div class="col text-center">
+                    <p class="text-center text-danger border-bottom border-muted">Choose Door Details</p>
+                </div>
+            </div>
+            
+            <form>
+                <div class="form-row">
+
+                    <div class="form-group col-md-4">
+                        <label for="measurement">Lock*</label>
+                        <select class="form-control" id="measurement">
+                            <option>Choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="number_of_beams">Grip*</label>
+                        <select class="form-control" id="number_of_beams">
+                            <option>Choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-4">
+                        <label for="is_symmetric">Door dandle*</label>
+                        <select class="form-control" id="is_symmetric">
+                            <option>choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="is_symmetric">Glass type*</label>
+                        <select class="form-control" id="is_symmetric">
+                            <option>choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="is_symmetric">color*</label>
+                        <select class="form-control" id="is_symmetric">
+                            <option>choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                </div>
+            </form>
+
+        </section>
+
+        <section class="container mb-5">
+            <div class="row mb-3">
+                <div class="col text-center">
+                    <p class="text-center text-danger border-bottom border-muted">Measurement & Installation</p>
+                </div>
+            </div>
+
+            
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="measurement">Measurement*</label>
+                        <select class="form-control" id="measurement">
+                            <option>Choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-4">
+                        <label for="number_of_beams">Installation*</label>
+                        <select class="form-control" id="number_of_beams">
+                            <option>Choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-4">
+                        <label for="is_symmetric">Delivery*</label>
+                        <select class="form-control" id="is_symmetric">
+                            <option>choose... </option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                </div>
+            </form>
+
+        </section>
+
+
+        <section class="container">
+            <div class="row mb-3">
+                <div class="col text-center">
+                    <p class="text-center text-danger border-bottom border-muted">Extra Instruction</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-10">
+                    <form action="">
+                        <div class="custom-file mb-4">
+                            <input type="file" class="custom-file-input" id="customFile" required>
+                            <label class="custom-file-label" for="customFile">Upload Sketch</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="note">Write a note</label>
+                            <textarea class="form-control bg-light" rows="5" id="note"></textarea>
+                        </div>
+                        <div class="text-center text-uppercase">
+                            <button type="button" class="btn btn-outline-danger">Add To Cart</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="py-5 bg-white">
+            <div class="container-fluid shadow bg-light rounded border-bottom border-dark p-5">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-10 mx-auto mb-3">
+                        <h3 class="font-weight-bold">Noziae</h3>
+                        <p class="text-muted my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corporis quibusdam.</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-10 mx-auto mb-3">
+                        <h5 class="font-weight-bold">Showroom Address</h5>
+                        <p class="text-muted my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corporis quibusdam.</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-10 mx-auto mb-3">
+                        <h5 class="font-weight-bold">Opening Hours</h5>
+                        <p class="text-muted my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corporis quibusdam.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-white">
+            <div class="container-fluid px-5">
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-10 mx-auto mb-3">
+                        <h5 class="font-weight-bold">Contacts</h5>
+                        <p class="my-3"><i class="fas fa-phone-alt mr-2 text-danger"></i> 01xxx-xxxxxx</p>
+                        <p class="mb-5"><i class="far fa-envelope mr-2 text-danger"></i> info@xyz.com</p>
+                        <div class="">
+                            <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-info"></i></a>
+                            <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-danger"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-10 mx-auto mb-3">
+                        <h5 class="font-weight-bold mb-3">Useful Links</h5>
+                        <p><a href="" class="text-dark text-capitalize">webshop</a></p>
+                        <p><a href="" class="text-dark text-capitalize">Tailor Made</a></p>
+                        <p><a href="" class="text-dark text-capitalize">Inspiration</a></p>
+                        <p><a href="" class="text-dark text-capitalize">faq</a></p>
+                        <p><a href="" class="text-dark text-capitalize">showroom</a></p>
+                        <p><a href="" class="text-dark text-capitalize">Contact</a></p>
+                        <p><a href="" class="text-dark text-capitalize">About us</a></p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-10 mx-auto mb-3">
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Need Helps?</h5>
+                            <p class="text-muted my-3">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div>
+                            <h5 class="font-weight-bold">About us</h5>
+                            <p class="text-muted my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sed molestias quisquam natus necessitatibus tenetur id pariatur consectetur maxime sit?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-10 mx-auto mb-3">
+                        <h5 class="font-weight-bold mb-3">Newsletter</h5>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I agree to the privacy policy</label>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-sm-10 border-top border-muted">
+                    <div class="p-3">
+                        <img src="http://placehold.it/240x240" alt="" style="width:100%; height:50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <footer class="container p-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; noziae. All rights reserved.Developed by Appstick </p>
+                </div>
+                <div class="col-md-6 footer-align">
+                    <p class=""> <a class="text-dark" href="">Cookies</a>|<a class="text-dark" href="">Terms and Conditions</a> </p>
+                </div>
+            </div>
+        </footer>
+
+
 
 
         <!-- Optional JavaScript -->
