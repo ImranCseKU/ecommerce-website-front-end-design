@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Noziae: About Us</title>
+
     </head>
     <body>
 
@@ -70,7 +71,7 @@
                     <li class="nav-item active"> <a class="nav-link text-uppercase" href="#">faq</a></li>
                     <li class="nav-item active"> <a class="nav-link text-uppercase" href="#">showroom</a></li>
                     <li class="nav-item active"> <a class="nav-link text-uppercase" href="#">partners</a></li>
-                    <li class="nav-item active dropdown">
+                    <!-- <li class="nav-item active dropdown">
                     <a class="nav-link dropdown-toggle text-uppercase " href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         en
                     </a>
@@ -79,6 +80,14 @@
                         <a class="dropdown-item" href="#">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
+                    </li> -->
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" data-toggle="dropdown" href="#">EN</a>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">French</a>
+                            <a class="dropdown-item" href="#">Dutch</a> 
+                        </div>
                     </li>
                     
                 </ul>
@@ -89,96 +98,107 @@
         <!-- navber end -->
 
         <section>
-            <div class="container">
-                <h3 class="text-uppercase font-weight-bold noziae-color"> About Us</h3>
-                <div class="row py-5">
-                    <div class="col-md-6">
-                        <h4 class="font-weight-bold text-warning mb-3">Who We Are?</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, 
-                            earum ullam dolorum quas amet reiciendis obcaecati corrupti perspiciatis libero
-                             expedita! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, 
-                             earum ullam dolorum quas amet reiciendis obcaecati corrupti perspiciatis libero
-                              expedita!
-                        </p>
+            <div class="container mb-md-5">
+                <div class="mb-md-4 mb-3">
+                    <h3 class="text-uppercase font-weight-bold noziae-color"> Webshop</h3>
+                    <h5 class="font-weight-bold mt-md-5 mt-3"><span class="text-capitalize">Hinged door - 830x2015</span> mm</h5>
+                    <p class="lead">Code: ABC 00331</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-8 mb-3">
+                        <img src="http://placehold.it/450x500" class="img-fluid">
+                        <div class="row mt-3">
+                            <div class="col-sm-2 mb-2">
+                                <img src="http://placehold.it/120x120" class="img-fluid">
+                            </div>
+                            <div class="col-sm-2 mb-2">
+                                <img src="http://placehold.it/120x120" class="img-fluid">
+                            </div>
+                            <div class="col-sm-2 mb-2">
+                                <img src="http://placehold.it/120x120" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="http://placehold.it/520x320" class="img-fluid rounded">
+
+
+                    <div class="col-sm-4 mb-3">
+                        <div class="card">
+                            <div class="card-header text-center py-4 bg-white">
+                                <p class="font-weight-bold text-uppercase p-0 m-0">Combine your door</p>
+                                <p class="font-weight-bold text-uppercase p-0 m-0">According to standard options</p>
+                            </div>
+                            <card class="body p-3">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="rotation">Direction of rotation</label>
+                                        <select class="form-control" id="rotation">
+                                          <option>Choose...</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="type">Type of glass</label>
+                                        <select class="form-control" id="type">
+                                          <option>Choose...</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="handle">Door Handle</label>
+                                        <select class="form-control" id="handle">
+                                          <option>Choose...</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="color">Color</label>
+                                        <select class="form-control" id="color">
+                                          <option>Choose...</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="transport">Transpost</label>
+                                        <select class="form-control" id="transport">
+                                          <option>Choose...</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="installation">Installation</label>
+                                        <select class="form-control" id="installation">
+                                          <option>Choose...</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                        </select>
+                                    </div>
+
+                                    
+                                    <div class="form-group row">
+                                        <div class="col-sm-4 mb-2">
+                                            <input type="number" value="1" min="1" class="form-control">
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <button class="btn btn-danger text-uppercase">Add to cart</button>
+                                        </div>
+                                    </div>
+                                    
+                                </form>
+                            </card>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <section class="bg-secondary">
-            <div class="container">
-                <h4 class="text-center font-weight-bold text-warning pt-4"> What We Do?</h4>
-                
-                <div class="row py-lg-5 py-3">
-                    <div class="col-sm-4 mb-2">
-                        <img src="http://placehold.it/520x480" class="img-thumbnail">
-                    </div>
-                    <div class="col-sm-4 mb-2">
-                        <img src="http://placehold.it/520x480" class="img-thumbnail">
-                    </div>
-                    <div class="col-sm-4 mb-2">
-                        <img src="http://placehold.it/520x480" class="img-thumbnail">
-                    </div>
-                
-                </div>
-            </div>
-        </section>
-
-
-        <section class="py-5">
-            <h4 class=" text-center font-weight-bold text-warning">Why Choose Us?</h4>
-            
-            <div class="container">
-                <div class="row py-5">
-                    <div class="col-md-6">
-                        <div class="row mb-3">
-                            <div class="col-3">
-                                <img src="http://placehold.it/80x80" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="col-9">
-                                <p class="font-weight-bold">Experienced expertise</p>
-                                <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi tempora totam beatae dolor, aut consequuntur labore incidunt! Quos, assumenda!</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="http://placehold.it/80x80" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="col-9">
-                                <p class="font-weight-bold">Experienced expertise</p>
-                                <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi tempora totam beatae dolor, aut consequuntur labore incidunt! Quos, assumenda!</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-md-6">
-                        <div class="row mb-3">
-                            <div class="col-3">
-                                <img src="http://placehold.it/80x80" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="col-9">
-                                <p class="font-weight-bold">Experienced expertise</p>
-                                <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi tempora totam beatae dolor, aut consequuntur labore incidunt! Quos, assumenda!</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="http://placehold.it/80x80" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="col-9">
-                                <p class="font-weight-bold">Experienced expertise</p>
-                                <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi tempora totam beatae dolor, aut consequuntur labore incidunt! Quos, assumenda!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
         
 
         
@@ -299,5 +319,8 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     </body>
 </html>
+
+
