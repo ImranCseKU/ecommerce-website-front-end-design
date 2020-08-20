@@ -6,6 +6,13 @@ body {
 .noziae-color{
     color: #b45858;
 }
+.noziae-button{
+    background-color: #b45858;
+    color: #fff;
+}
+.noziae-button:hover{
+    color: #fff;
+}
 
 /* start navber */
 .navbar {
