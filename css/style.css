@@ -3,15 +3,18 @@ body {
     background-color: white;
 
 }
-.noziae-color{
-    color: #b45858;
+
+/* Text and Button color */
+.text-carmine{
+    color: #960018;
 }
-.noziae-button{
-    background-color: #b45858;
+.btn-carmine{
+    background-color: #960018;
     color: #fff;
 }
-.noziae-button:hover{
+.btn-carmine:hover{
     color: #fff;
+    transform: translateY(-1px);
 }
 
 /* start navber */
@@ -22,7 +25,7 @@ body {
 
 #nav ul li a:hover {
     font-weight: bold;
-    color: #b45858;
+    color: #960018;
 }
 
 .top-nav {
@@ -71,8 +74,11 @@ body {
     .second-nav{
         height: 5rem;
     }
-
+    .border-invoice{
+        border-right: 1px solid #999;
+    }
     .footer-align{
         text-align: right;
     }
+
 }
