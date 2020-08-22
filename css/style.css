@@ -16,6 +16,18 @@ body {
     color: #fff;
     transform: translateY(-1px);
 }
+.call-us-button{
+    border: 1px solid #960018;
+    color: #960018;
+}
+.call-us-button:hover{
+    background-color: #960018;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+/* image style */
+
 
 /* start navber */
 .navbar {
