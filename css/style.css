@@ -8,6 +8,7 @@ body {
 .text-carmine{
     color: #960018;
 }
+
 .btn-carmine{
     background-color: #960018;
     color: #fff;
@@ -28,6 +29,15 @@ body {
 
 /* image style */
 
+/* anchor tag */
+.no-underline:hover{
+    text-decoration: none;
+    color: #960018 !important;
+}
+p .no-underline:hover{
+    text-decoration: none;
+    color: #960018 !important;
+}
 
 /* start navber */
 .navbar {
@@ -80,17 +90,24 @@ body {
 
 
 @media( min-width: 768px){
+    .text-bolder{
+        font-size: 1.2rem;
+    }
+
     .navbar-brand{
         transform: translateY(-25px);
     }
     .second-nav{
         height: 5rem;
     }
+
     .border-invoice{
         border-right: 1px solid #999;
     }
+
     .footer-align{
         text-align: right;
     }
 
 }
+
