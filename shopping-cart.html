@@ -20,7 +20,7 @@
     <!-- External Css File -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Noziae: Invoice</title>
+    <title>Noziae: Shopping Cart</title>
     </head>
     <body>
 
@@ -90,105 +90,113 @@
 
         <section>
             <div class="container">
-                <h3 class="text-uppercase font-weight-bold text-carmine">Invoice</h3>
-                
-                <p class="font-weight-bold mt-md-5 mt-4 h5">Thank you! Your order has been received.</p>
-                <div class="row my-md-5 my-3">
-                    <div class="col-md-3 border-invoice mb-2">
-                        <p class="pt-2"><span class="text-uppercase">Order Number</span></br>
-                            <span class="h5 font-weight-bold">1204</span>
-                        </p>
-                    </div>
-                    <div class="col-md-3 border-invoice mb-2">
-                        <p class="pt-2 px-md-3"><span class="text-uppercase">Date</span></br>
-                            <span class="h5 font-weight-bold">20 August</span>
-                        </p>
-                    </div>
-                    <div class="col-md-3 border-invoice mb-2">
-                        <p class="pt-2 px-md-3"><span class="text-uppercase">Total</span></br>
-                            <span class="h5 font-weight-bold">2750&euro;</span>
-                        </p>
-                    </div>
-                    <div class="col-md-3 mb-2">
-                        <p class="pt-2 px-md-3"><span class="text-uppercase">Payment Method</span></br>
-                            <span class="h5 font-weight-bold">Cash On Delivery</span>
-                        </p>
-                    </div>
-
-                </div>
-
+                <h3 class="text-uppercase font-weight-bold text-carmine mb-5"> shopping cart</h3>
                 <div class="row">
                     <div class="col">
-                        <p class="h5 font-weight-bold mb-md-5 mb-4">Order Details</p>
                         <table class="table table-bordered">
-                            <thead class="text-dark font-weight-bold text-uppercase">
-                              <tr>
-                                <th class="px-md-5">Customer details</th>
-                                <th class="px-md-5">product details</th>
-                                <th class="text-center px-md-5">price</th>
-                              </tr>
+                            <thead class="text-uppercase text-center">
+                                <tr>
+                                    <th>SL</th>
+                                    <th>Product details</th>
+                                    <th>quantity</th>
+                                    <th>price</th>
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="px-md-5">
-                                        <span class="font-weight-bold">JOHN DOE</span><br>
-                                        <address>
-                                            Country: <br>
-                                            Street: <br>
-                                            House Number: <br>
-                                            State: <br>
-                                            Phone Number: <br>
-                                            Email: 
-                                        </address>
+                                    <th class="text-center px-md-5">1</th>
+                                    <td class="text-left">
+                                        <div class="row">
+                                            <div class="col-md-4 mb-2">
+                                                <img src="http://placehold.it/200x250" alt="" class="img-fluid" width="100%">
+                                            </div>
+                                            <div class="col-md-8 mb-2">
+                                                <span class="text-uppercase font-weight-bold">steel hinged door - abc 00331</span><br>
+                                                Dimension: 830x2015 mm <br>
+                                                Type of glass: <br>
+                                                Door handle: <br>
+                                                Color: <br>
+                                                Transport: Home Delivery <br>
+                                                Installation: Required <br>
+                                            </div>
+                                        </div>
                                     </td>
-                                    <td class="px-md-5">
-                                        <span class="font-weight-bold">STEEL HINGED DOOR - 830x2015 mm X1</span><br>
-                                        <address>
-                                            Code: <br>
-                                            Type of glass: <br>
-                                            Door handle: <br>
-                                            Color: <br>
-                                            Transport: <br>
-                                            Installation: 
-                                        </address>
+
+                                    <td style="vertical-align:middle;" >
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" value="1" min="1" style="width:100px;">
+                                        </div>
                                     </td>
                                     <td class="text-center font-weight-bold" style="vertical-align:middle;">
                                         2000&euro;
                                     </td>
                                 </tr>
 
+
+
                                 <tr>
-                                    <td colspan="2" class="px-md-5">Shipping cost (Fixed)</td>
+                                    <th class="text-center">2</th>
+                                    <td class="text-left">
+                                        <div class="row">
+                                            <div class="col-md-4 mb-2">
+                                                <img src="http://placehold.it/200x250" alt="" class="img-fluid" width="100%">
+                                            </div>
+                                            <div class="col-md-8 mb-2">
+                                                <span class="text-uppercase font-weight-bold">steel hinged door - abc 00332</span><br>
+                                                Dimension: 830x2015 mm <br>
+                                                Type of glass: <br>
+                                                Door handle: <br>
+                                                Color: <br>
+                                                Transport: Home Delivery <br>
+                                                Installation: Required <br>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td style="vertical-align:middle;" >
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" value="1" min="1" style="width:100px;">
+                                        </div>
+                                    </td>
+                                    <td class="text-center font-weight-bold" style="vertical-align:middle;">
+                                        1175&euro;
+                                    </td>
+                                </tr>
+
+
+
+                                <tr>
+                                    <th class="text-center">3</th>
+                                    <td colspan="2">Shipping cost (<span class="small">Fixed</span>)</td>
                                     <td class="text-center font-weight-bold">150&euro;</td>
                                 </tr>
 
-                                <tr>
-                                    <td colspan="2" class="px-md-5">Shipping cost (Fixed)</td>
-                                    <td class="text-center font-weight-bold">150&euro;</td>
-                                </tr>
 
                                 <tr>
-                                    <td colspan="2" class="px-md-5">Installation cost</td>
+                                    <th class="text-center">4</th>
+                                    <td colspan="2">Installation cost</td>
                                     <td class="text-center font-weight-bold">350&euro;</td>
                                 </tr>
 
                                 <tr>
-                                    <td colspan="2" class="px-md-5">Total (excl. vat)</td>
+                                    <th class="text-center">5</th>
+                                    <td colspan="2">Total (<span class="small">excl. vat</span>)</td>
                                     <td class="text-center font-weight-bold">2500&euro;</td>
                                 </tr>
 
                                 <tr>
-                                    <td colspan="2" class="px-md-5">Total (incl. 21% vat)</td>
-                                    <td class="text-center font-weight-bold">3025&euro;</td>
+                                    <th class="text-center">6</th>
+                                    <td colspan="2">Total (<span class="small">incl. 21%vat</span>)</td>
+                                    <td class="text-center font-weight-bold">3035&euro;</td>
                                 </tr>
-
                             </tbody>
                         </table>
+
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sed. <br>
                         Lorem ipsum dolor sit amet. <br>
                         <span class="text-danger">*Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                         <div class="text-right">
-                            <button class="btn btn-carmine text-uppercase py-3">download invoice</button>
+                            <button class="btn btn-carmine text-uppercase py-3 px-5">checkout</button>
                         </div>
                     </div>
                 </div>
