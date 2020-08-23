@@ -94,14 +94,22 @@
                     <div class="col-lg-6 col-md-8 col-sm-10">
                         <div class="text-center py-md-4 py-3">
                             <i class="fas fa-user-alt fa-2x text-carmine"></i><br>
-                            <span class="text-uppercase font-weight-bold text-carmine">Login</span>
+                            <span class="font-weight-bold text-carmine">I'm New Here</span>
                         </div>
 
                         <form action="">
                             <div class="form-group">
+                                <label for="first-name">First Name*</label>
+                                <input type="text" class="form-control" id="first-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name*</label>
+                                <input type="text" class="form-control" id="last-name">
+                            </div>
+                            <div class="form-group">
                                 <label for="user-email">Email address*</label>
-                                <input type="email" class="form-control" id="user-email" aria-describedby="emailHelp">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <input type="email" class="form-control" id="user-email">
+                                <small class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="user-password">Password*</label>
@@ -114,16 +122,19 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="mt-4 mb-5">
-                                <button type="submit" class="btn btn-carmine btn-block text-uppercase font-weight-bold py-3">login</button>
-                                <p class="text-center mt-3"><a href="" class="text-dark no-underline"> Forget Password?</a></p>
+                                <small class="form-text text-muted">Enter minimum 6 character</small>
                             </div>
 
-                            <p class="text-bolder text-center">Don't an account yet?</p>
-                            <div class="my-4">
-                                <button class="btn btn-block register-btn font-weight-bold text-uppercase">Register</button>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="register-checkbox">
+                                <label class="form-check-label" for="register-checkbox">When you create an account you agree to the trems and Conditions of noziae</label>
                             </div>
+
+                            <div class="mt-5 mb-5">
+                                <button type="submit" class="btn btn-carmine btn-block text-uppercase font-weight-bold py-3">Register</button>
+                                <p class="text-center mt-3">Already have an account?<a href="" class="font-weight-bold text-dark no-underline">Login</a></p>
+                            </div>
+                            
 
                         </form>
                     </div>
