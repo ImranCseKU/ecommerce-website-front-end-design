@@ -5,6 +5,12 @@ body {
 }
 
 /* Text and Button color */
+.text-bolder{
+    font-size: 1rem;
+}
+.text-smaller{
+    font-size: .7rem;
+}
 .text-carmine{
     color: #960018;
 }
@@ -20,6 +26,7 @@ body {
 .call-us-button{
     border: 1px solid #960018;
     color: #960018;
+    transition: all .3s;
 }
 .call-us-button:hover{
     background-color: #960018;
@@ -27,7 +34,18 @@ body {
     transform: translateY(-1px);
 }
 
+.register-btn {
+    border: 1px solid #960018;
+    color: #000;
+}
+.register-btn:hover{
+    background-color: #960018;
+    color: #fff;
+    transition: all .4s;
+}
 /* image style */
+/* image style end */
+
 
 /* anchor tag */
 .no-underline:hover{
@@ -91,6 +109,9 @@ p .no-underline:hover{
 @media( min-width: 768px){
     .text-bolder{
         font-size: 1.2rem;
+    }
+    .text-smaller{
+        font-size: 1rem;
     }
 
     .navbar-brand{
