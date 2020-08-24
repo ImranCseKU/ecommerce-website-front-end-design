@@ -4,7 +4,7 @@ body {
 
 }
 
-/* Text and Button color */
+/* Text and Button color style */
 .text-bolder{
     font-size: 1rem;
 }
@@ -43,11 +43,17 @@ body {
     color: #fff;
     transition: all .4s;
 }
+/* end of Text and Button color style */
+
+
 /* image style */
-/* image style end */
+#brand-img{
+    display: none;
+}
+/*end of image style*/
 
 
-/* anchor tag */
+/* anchor tag style*/
 .no-underline:hover{
     text-decoration: none;
     color: #960018 !important;
@@ -56,8 +62,17 @@ p .no-underline:hover{
     text-decoration: none;
     color: #960018 !important;
 }
+/* end of anchor tag style */
 
-/* start navber */
+
+/* form style */
+.search-form{
+    padding: 0 3rem ;
+}
+/* end of form style */
+
+
+/* start navber style */
 .navbar {
     padding:0rem;
     margin-bottom:2rem;
@@ -103,7 +118,12 @@ p .no-underline:hover{
     width: 20rem;
     height: 5rem;
 }
-/* navber end */
+/* end of navber style */
+
+
+/* header  */
+
+/* end of header style*/
 
 
 @media( min-width: 768px){
@@ -112,6 +132,12 @@ p .no-underline:hover{
     }
     .text-smaller{
         font-size: 1rem;
+    }
+    #brand-img{
+        display: inline;
+    }
+    .search-form{
+        padding: 0px;
     }
 
     .navbar-brand{
@@ -130,4 +156,5 @@ p .no-underline:hover{
     }
 
 }
+
 
