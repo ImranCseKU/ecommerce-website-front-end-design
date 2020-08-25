@@ -1,8 +1,97 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family     : 'Montserrat', sans-serif;
     background-color: white;
 
 }
+
+/* header  */
+header{
+    height    : 100vh;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0, .5)), url('../images/homepage-door.jpg') no-repeat center center /cover;
+}
+
+/* banner */
+.banner{
+    position : relative;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%,-50%);
+    width    : 80%;
+}
+.banner-heading{
+    animation-name    : header-anim;
+    animation-duration: 3s;
+}
+
+.banner-par{
+    animation-name     : header-anim;
+    animation-duration : 3s;
+    animation-delay    : .5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes header-anim {
+    0% {
+        transform: translateX(-100px);
+        opacity  : 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity  : 1;
+    }
+}
+/* end of banner */
+
+
+/* navber */
+.navbar {
+    padding:0rem;
+    margin-bottom:2rem;
+}
+
+#nav ul li a:hover {
+    font-weight: bold;
+    color      : #960018;
+}
+
+.top-nav {
+    box-shadow: 7px 3px 7px #eee;
+}
+
+.search-input {
+    background   : transparent;
+    border       : none;
+    border-radius: 0;
+    border-bottom: 2px solid #999;
+    transition   : all .4s;
+}
+  
+.search-input:focus {
+    background   : transparent;
+    box-shadow   : none;
+    border-bottom: 2px solid #dc3545;
+    transform    : translateY(4px);
+}
+  
+.search-button {
+    border-radius: 50%;
+    padding      : 10px 16px;
+    transition   : all .4s;
+}
+  
+.search-button:hover {
+    background-color: #eee;
+    transform       : translateY(-1px);
+}
+.navbar-brand > img{
+    margin : 0px;
+    padding: 0px;
+    width  : 20rem;
+    height : 5rem;
+}
+/* end of navber style */
+
+
 
 /* Text and Button color style */
 .text-bolder{
@@ -11,39 +100,58 @@ body {
 .text-smaller{
     font-size: .7rem;
 }
+
 .text-carmine{
     color: #960018;
 }
 
 .btn-carmine{
     background-color: #960018;
-    color: #fff;
+    color           : #fff;
+    transition      : all .3s;
 }
 .btn-carmine:hover{
-    color: #fff;
-    transform: translateY(-1px);
-}
-.call-us-button{
-    border: 1px solid #960018;
-    color: #960018;
-    transition: all .3s;
-}
-.call-us-button:hover{
-    background-color: #960018;
-    color: #fff;
+    color    : #fff;
     transform: translateY(-1px);
 }
 
+
+.call-us-button{
+    border    : 1px solid #960018;
+    color     : #960018;
+    transition: all .5s;
+}
+.call-us-button:hover{
+    background-color: #960018;
+    color           : #fff;
+    transform       : translateY(-1px);
+}
+
 .register-btn {
-    border: 1px solid #960018;
-    color: #000;
+    border    : 1px solid #960018;
+    color     : #000;
+    transition: all .4s;
 }
 .register-btn:hover{
     background-color: #960018;
-    color: #fff;
-    transition: all .4s;
+    color           : #fff;  
 }
 /* end of Text and Button color style */
+
+
+/* border style */
+.count{
+    border: 3px solid #960018;
+}
+
+.bg-carmine{
+    background-color: #960018;
+}
+
+.count-par{
+    transform: translateY(-15px);
+}
+/* end of border style */
 
 
 /* image style */
@@ -56,12 +164,13 @@ body {
 /* anchor tag style*/
 .no-underline:hover{
     text-decoration: none;
-    color: #960018 !important;
+    color          : #960018 !important;
 }
 p .no-underline:hover{
     text-decoration: none;
-    color: #960018 !important;
+    color          : #960018 !important;
 }
+
 /* end of anchor tag style */
 
 
@@ -72,61 +181,93 @@ p .no-underline:hover{
 /* end of form style */
 
 
-/* start navber style */
-.navbar {
-    padding:0rem;
-    margin-bottom:2rem;
-}
-
-#nav ul li a:hover {
-    font-weight: bold;
-    color: #960018;
-}
-
-.top-nav {
-    box-shadow: 7px 3px 7px #eee;
-}
-
-.search-input {
-    background: transparent;
-    border: none;
-    border-radius: 0;
-    border-bottom: 2px solid #999;
-    transition: all .4s;
-}
+/* Home Page Animation */
+.header-top {
+    animation-name    : anim-top;
+    animation-duration: 2s;
+  }
   
-.search-input:focus {
-    background: transparent;
-    box-shadow: none;
-    border-bottom: 2px solid #dc3545;
-    transform: translateY(4px);
+.paragraph-top {
+    animation-name     : anim-top;
+    animation-duration : 3s;
+    animation-delay    : .5s;
+    animation-fill-mode: backwards;
 }
-  
-.search-button {
-    border-radius: 50%;
-    padding: 10px 16px;
-    transition: all .4s;
+.link-top {
+    animation-name     : anim-top;
+    animation-duration : 3s;
+    animation-delay    : .7s;
+    animation-fill-mode: backwards;
 }
-  
-.search-button:hover {
-    background-color: #eee;
-    transform: translateY(-1px);
+
+@keyframes anim-top {
+    0% {
+      transform: translateY(100px);
+      opacity  : 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity  : 1;
+    }
 }
-.navbar-brand > img{
-    margin: 0px;
-    padding: 0px;
-    width: 20rem;
-    height: 5rem;
+
+.card-left{
+    animation-name    : card-left-anim;
+    animation-duration: 2s;
 }
-/* end of navber style */
+
+.card-right{
+    animation-name    : card-right-anim;
+    animation-duration: 3s;
+}
 
 
-/* header  */
+@keyframes card-left-anim {
+    0% {
+        transform: translateX(-100px);
+        opacity  : 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity  : 1;
+      }
+}
 
-/* end of header style*/
+@keyframes card-right-anim {
+    0% {
+        transform: translateX(100px);
+        opacity  : 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity  : 1;
+    }
+}
+/* animation end */
+
+/* slider */
+.slide1, .slide2, .slide3{
+    height: 50vh;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/* slider end */
 
 
 @media( min-width: 768px){
+
+    header{
+        height    : 90vh;
+        background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0, .5)), url('../images/homepage-door.jpg') no-repeat center center /cover;
+    }
+    .slide1, .slide2, .slide3{
+        height: 90vh;
+    }
     .text-bolder{
         font-size: 1.2rem;
     }
