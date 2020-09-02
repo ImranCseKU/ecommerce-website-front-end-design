@@ -115,6 +115,11 @@ header{
     transform: translateY(-1px);
 }
 
+.current{
+    color    : #960018 !important;
+    font-size: 1.2rem;
+}
+
 
 .call-us-button{
     border    : 1px solid #960018;
@@ -124,6 +129,17 @@ header{
 .call-us-button:hover{
     background-color: #960018;
     color           : #fff;
+    transform       : translateY(-1px);
+}
+
+.btn-profile{
+    border     : 1px solid #eee;
+    color      : #000;
+    font-weight: bold;
+    transition : all .5s;
+}
+.btn-profile:hover{
+    color           : #960018;
     transform       : translateY(-1px);
 }
 
@@ -163,6 +179,10 @@ header{
 
 /* anchor tag style*/
 .no-underline:hover{
+    text-decoration: none;
+    color          : #960018 !important;
+}
+p .no-underline-anchor{
     text-decoration: none;
     color          : #960018 !important;
 }
